@@ -1,6 +1,9 @@
 import numpy as np #Numpy(Numerical Python) es una librería que nos permite trabajar con arrays. 
 #Generador de tablas de verdad
 #Preguntamos al usuario el número de variables binarias que tenemos en el problema
+from dwave.system import DWaveSampler, EmbeddingComposite
+
+sampler = EmbeddingComposite(DWaveSampler())
 numero_variables =int(input("Por favor, introduzca el número de variables binarias que tiene el problema:"))
 
 #El número de filas de la tabla de verdad será 2 elevado al número de variables.
