@@ -4,6 +4,7 @@ import numpy as np #Numpy(Numerical Python) es una librería que nos permite tra
 # DWaveSampler() lo utilizamos para conectar con el sistema DWave
 #EmbeddingComposite lo empleamos para el procedimiento de MinorEmbedding
 import dwavebinarycsp
+from dwave.system import LeapHybridSampler
 from dwave.system.samplers import DWaveSampler
 from dwave.system.composites import EmbeddingComposite
 
