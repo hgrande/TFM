@@ -1,3 +1,4 @@
+import dimod
 x = dimod.Binary('x')
 y = dimod.Integer('y')
 cqm = dimod.CQM()
